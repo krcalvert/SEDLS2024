@@ -1,0 +1,526 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://journal.code4lib.org/articles/15660">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1940-5758"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brousseau</foaf:surname>
+                        <foaf:givenName>Christopher</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnson</foaf:surname>
+                        <foaf:givenName>Justin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thacker</foaf:surname>
+                        <foaf:givenName>Curtis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_84"/>
+        <dc:title>Machine Learning Based Chat Analysis</dc:title>
+        <dcterms:abstract>The BYU library implemented a Machine Learning-based tool to perform various text analysis tasks on transcripts of chat-based interactions between patrons and librarians. These text analysis tasks included estimating patron satisfaction and classifying queries into various categories such as Research/Reference, Directional, Tech/Troubleshooting, Policy/Procedure, and others. An accuracy of 78% or better was achieved for each category. This paper details the implementation details and explores potential applications for the text analysis tool.</dcterms:abstract>
+        <dc:date>2021-02-10</dc:date>
+        <z:libraryCatalog>Code4Lib Journal</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://journal.code4lib.org/articles/15660</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-08 20:23:14</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1940-5758">
+        <dc:title>The Code4Lib Journal</dc:title>
+        <prism:number>50</prism:number>
+        <dc:identifier>ISSN 1940-5758</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_84">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Code4Lib Journal Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://journal.code4lib.org/articles/15660</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-08 20:23:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1162/COLI_a_00049">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0891-2017"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taboada</foaf:surname>
+                        <foaf:givenName>Maite</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brooke</foaf:surname>
+                        <foaf:givenName>Julian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tofiloski</foaf:surname>
+                        <foaf:givenName>Milan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Voll</foaf:surname>
+                        <foaf:givenName>Kimberly</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stede</foaf:surname>
+                        <foaf:givenName>Manfred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_616"/>
+        <link:link rdf:resource="#item_617"/>
+        <dc:title>Lexicon-Based Methods for Sentiment Analysis</dc:title>
+        <dcterms:abstract>We present a lexicon-based approach to extracting sentiment from text. The Semantic Orientation CALculator (SO-CAL) uses dictionaries of words annotated with their semantic orientation (polarity and strength), and incorporates intensification and negation. SO-CAL is applied to the polarity classification task, the process of assigning a positive or negative label to a text that captures the text's opinion towards its main subject matter. We show that SO-CAL's performance is consistent across domains and in completely unseen data. Additionally, we describe the process of dictionary creation, and our use of Mechanical Turk to check dictionaries for consistency and reliability.</dcterms:abstract>
+        <dc:date>2011-06-01</dc:date>
+        <z:libraryCatalog>Silverchair</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1162/COLI_a_00049</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-30 17:20:08</dcterms:dateSubmitted>
+        <bib:pages>267-307</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0891-2017">
+        <prism:volume>37</prism:volume>
+        <dc:title>Computational Linguistics</dc:title>
+        <dc:identifier>DOI 10.1162/COLI_a_00049</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Computational Linguistics</dcterms:alternative>
+        <dc:identifier>ISSN 0891-2017</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_616">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://direct.mit.edu/coli/article-pdf/37/2/267/1798865/coli_a_00049.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-30 17:20:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_617">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://direct.mit.edu/coli/article/37/2/267/2105/Lexicon-Based-Methods-for-Sentiment-Analysis</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-30 17:20:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1177/0165551517703514">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0165-5515"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khoo</foaf:surname>
+                        <foaf:givenName>Christopher SG</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnkhan</foaf:surname>
+                        <foaf:givenName>Sathik Basha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_623"/>
+        <dc:title>Lexicon-based sentiment analysis: Comparative evaluation of six sentiment lexicons</dc:title>
+        <dcterms:abstract>This article introduces a new general-purpose sentiment lexicon called WKWSCI Sentiment Lexicon and compares it with five existing lexicons: Hu &amp; Liu Opinion Lexicon, Multi-perspective Question Answering (MPQA) Subjectivity Lexicon, General Inquirer, National Research Council Canada (NRC) Word-Sentiment Association Lexicon and Semantic Orientation Calculator (SO-CAL) lexicon. The effectiveness of the sentiment lexicons for sentiment categorisation at the document level and sentence level was evaluated using an Amazon product review data set and a news headlines data set. WKWSCI, MPQA, Hu &amp; Liu and SO-CAL lexicons are equally good for product review sentiment categorisation, obtaining accuracy rates of 75%–77% when appropriate weights are used for different categories of sentiment words. However, when a training corpus is not available, Hu &amp; Liu obtained the best accuracy with a simple-minded approach of counting positive and negative words for both document-level and sentence-level sentiment categorisation. The WKWSCI lexicon obtained the best accuracy of 69% on the news headlines sentiment categorisation task, and the sentiment strength values obtained a Pearson correlation of 0.57 with human-assigned sentiment values. It is recommended that the Hu &amp; Liu lexicon be used for product review texts and the WKWSCI lexicon for non-review texts.</dcterms:abstract>
+        <dc:date>2018-08-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Lexicon-based sentiment analysis</z:shortTitle>
+        <z:libraryCatalog>SAGE Journals</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1177/0165551517703514</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-10 15:23:46</dcterms:dateSubmitted>
+        <dc:description>Publisher: SAGE Publications Ltd</dc:description>
+        <bib:pages>491-511</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0165-5515">
+        <prism:volume>44</prism:volume>
+        <dc:title>Journal of Information Science</dc:title>
+        <dc:identifier>DOI 10.1177/0165551517703514</dc:identifier>
+        <prism:number>4</prism:number>
+        <dc:identifier>ISSN 0165-5515</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_623">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>SAGE PDF Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.sagepub.com/doi/pdf/10.1177/0165551517703514</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-10 15:23:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jacta.utem.edu.my/jacta/article/view/5207">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2682-8820"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Min</foaf:surname>
+                        <foaf:givenName>Wan Nur Syahirah Wan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zulkarnain</foaf:surname>
+                        <foaf:givenName>Nur Zareen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_625"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>free software</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>FTMK</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>open access</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>open source software</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>scholarly publishing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>UTeM</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Comparative Evaluation of Lexicons in Performing Sentiment Analysis</dc:title>
+        <dcterms:abstract>Twitter is one of the fastest growing social media platforms which allows users to express themselves in short text messages on a wide range of topics. The amount of text produced allows for the understanding of human behaviour. One of the analysis that can be performed is sentiment analysis. Even though sentiment analysis has been researched for many years, there are still several difficulties in performing it such as in handling internet slangs, abbreviations, and emoticons which is common in social media. This paper investigates the performance of two lexicons which are VADER and TextBlob in performing sentiment analysis on 7,997 tweets. Out of the 7,997 tweets, 300 tweets were then randomly selected and three experts in psychology and human development were asked to classify the tweets manually based on three polarities. From the study, it is found that both lexicons have an acceptable accuracy rate of 79% for VADER and 73% for TextBlob. Considering all of the performance score, VADER emerged as a better lexicon as compared to TextBlob. The result of this study serves to help researches in deciding which lexicon to use in performing sentiment analysis for social media texts including microblogs.</dcterms:abstract>
+        <dc:date>2020-05-29</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>jacta.utem.edu.my</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jacta.utem.edu.my/jacta/article/view/5207</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-10 15:27:48</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c) 2020 JOURNAL OF ADVANCED COMPUTING TECHNOLOGY AND APPLICATION (JACTA)</dc:rights>
+        <dc:description>Number: 1</dc:description>
+        <bib:pages>1-8</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2682-8820">
+        <prism:volume>2</prism:volume>
+        <dc:title>Journal of Advanced Computing Technology and Application (JACTA)</dc:title>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 2682-8820</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_625">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jacta.utem.edu.my/jacta/article/download/5207/3684</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-10 15:27:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S095070512100397X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0950-7051"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Birjali</foaf:surname>
+                        <foaf:givenName>Marouane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kasri</foaf:surname>
+                        <foaf:givenName>Mohammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beni-Hssane</foaf:surname>
+                        <foaf:givenName>Abderrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_696"/>
+        <link:link rdf:resource="#item_694"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Deep learning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Lexicon-based</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Machine learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Opinion mining</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sentiment analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sentiment classification</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A comprehensive survey on sentiment analysis: Approaches, challenges and trends</dc:title>
+        <dcterms:abstract>Sentiment analysis (SA), also called Opinion Mining (OM) is the task of extracting and analyzing people’s opinions, sentiments, attitudes, perceptions, etc., toward different entities such as topics, products, and services. The fast evolution of Internet-based applications like websites, social networks, and blogs, leads people to generate enormous heaps of opinions and reviews about products, services, and day-to-day activities. Sentiment analysis poses as a powerful tool for businesses, governments, and researchers to extract and analyze public mood and views, gain business insight, and make better decisions. This paper presents a complete study of sentiment analysis approaches, challenges, and trends, to give researchers a global survey on sentiment analysis and its related fields. The paper presents the applications of sentiment analysis and describes the generic process of this task. Then, it reviews, compares, and investigates the used approaches to have an exhaustive view of their advantages and drawbacks. The challenges of sentiment analysis are discussed next to clarify future directions.</dcterms:abstract>
+        <dc:date>2021-08-17</dc:date>
+        <z:shortTitle>A comprehensive survey on sentiment analysis</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S095070512100397X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-09 13:07:03</dcterms:dateSubmitted>
+        <bib:pages>107134</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0950-7051">
+        <prism:volume>226</prism:volume>
+        <dc:title>Knowledge-Based Systems</dc:title>
+        <dc:identifier>DOI 10.1016/j.knosys.2021.107134</dc:identifier>
+        <dcterms:alternative>Knowledge-Based Systems</dcterms:alternative>
+        <dc:identifier>ISSN 0950-7051</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_696">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Birjali et al. - 2021 - A comprehensive survey on sentiment analysis Appr.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_694">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S095070512100397X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-09 13:07:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_698">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kohler</foaf:surname>
+                        <foaf:givenName>Ellie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_699"/>
+        <dc:title>What Do Your Library Chats Say?: How to Analyze Webchat Transcripts for Sentiment and Topic Extraction</dc:title>
+        <dcterms:abstract>Chat reference is popular at academic libraries, where most of the users are digital natives who incorporate IM (instant messaging) software as a daily part of online life. But reference can be complicated when you are not meeting face-to-face. Are we answering our patron’s questions? Are all the librarians answering the questions the same way? Are the interactions positive or negative experiences? And how much effort is actually put into chat interactions? Library reference chat transcripts give us a unique opportunity to find out all of this information from chat reference interactions.</dcterms:abstract>
+        <dc:date>2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_699">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Kohler - 2017 - What Do Your Library Chats Say How to Analyze We.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Data rdf:about="https://gist.github.com/fnielsen/4183541">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenName>Finn Årup</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <dc:title>Simplest sentiment analysis in Python with AFINN</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://gist.github.com/fnielsen/4183541</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Programmers: _:n22</dc:description>
+    </bib:Data>
+    <bib:Article rdf:about="#item_701">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kohler</foaf:surname>
+                        <foaf:givenName>Ellie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>What Do Your Library Chats Say?: How to Analyze Webchat Transcripts for Sentiment and Topic Extraction</dc:title>
+        <dcterms:abstract>Chat reference is popular at academic libraries, where most of the users are digital natives who incorporate IM (instant messaging) software as a daily part of online life. But reference can be complicated when you are not meeting face-to-face. Are we answering our patron’s questions? Are all the librarians answering the questions the same way? Are the interactions positive or negative experiences? And how much effort is actually put into chat interactions? Library reference chat transcripts give us a unique opportunity to find out all of this information from chat reference interactions.</dcterms:abstract>
+        <dc:date>2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <bib:Article rdf:about="https://search.ebscohost.com/login.aspx?direct=true&amp;AuthType=ip,shib&amp;db=ufh&amp;AN=150676639&amp;site=ehost-live&amp;scope=site&amp;custid=s5823139">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:19312458"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Atteveldt</foaf:surname>
+                        <foaf:givenName>Wouter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van der Velden</foaf:surname>
+                        <foaf:givenName>Mariken A. C. G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boukes</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Automated Approaches</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Deep learning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Evaluation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Machine learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Manual Annotation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Measurement</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Polarization (Social sciences)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Political communication</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sentiment analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sentiment Analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Validity</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The Validity of Sentiment Analysis: Comparing Manual Annotation, Crowd-Coding, Dictionary Approaches, and Machine Learning Algorithms</dc:title>
+        <dcterms:abstract>Sentiment is central to many studies of communication science, from negativity and polarization in political communication to analyzing product reviews and social media comments in other sub-fields. This study provides an exhaustive comparison of sentiment analysis methods, using a validation set of Dutch economic headlines to compare the performance of manual annotation, crowd coding, numerous dictionaries and machine learning using both traditional and deep learning algorithms. The three main conclusions of this article are that: (1) The best performance is still attained with trained human or crowd coding; (2) None of the used dictionaries come close to acceptable levels of validity; and (3) machine learning, especially deep learning, substantially outperforms dictionary-based methods but falls short of human performance. From these findings, we stress the importance of always validating automatic text analysis methods before usage. Moreover, we provide a recommended step-by-step approach for (automated) text analysis projects to ensure both efficiency and validity.</dcterms:abstract>
+        <dc:date>2021-04</dc:date>
+        <z:shortTitle>The Validity of Sentiment Analysis</z:shortTitle>
+        <z:libraryCatalog>EBSCOhost</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://search.ebscohost.com/login.aspx?direct=true&amp;AuthType=ip,shib&amp;db=ufh&amp;AN=150676639&amp;site=ehost-live&amp;scope=site&amp;custid=s5823139</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-04 15:24:53</dcterms:dateSubmitted>
+        <dc:description>Number: 2
+Publisher: Routledge</dc:description>
+        <bib:pages>121-140</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:19312458">
+        <prism:volume>15</prism:volume>
+        <dc:title>Communication Methods &amp; Measures</dc:title>
+        <dc:identifier>DOI 10.1080/19312458.2020.1869198</dc:identifier>
+        <prism:number>2</prism:number>
+        <dc:identifier>ISSN 19312458</dc:identifier>
+    </bib:Journal>
+</rdf:RDF>
